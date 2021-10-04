@@ -14,4 +14,4 @@ public class Board extends JPanel {
         super.paint(g);
         g.drawImage(img,0,0,this);
     }
-}
+}//change
