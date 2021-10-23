@@ -1,10 +1,13 @@
 import javax.swing.*;
 
 public class Frame {
-    public static void main(String[] arg){
-        JFrame frame= new JFrame();
-        frame.setSize(1048, 540);
-        frame.add(new Board());
-        frame.setVisible(true);
+    public static void main(String[] args) {
+
+        JFrame framework = new JFrame();
+        framework.setSize(1024, 552);
+        framework.add(new ImageAdd());
+        framework.setVisible(true);
+
     }
+
 }
